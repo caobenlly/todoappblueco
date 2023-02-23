@@ -1,0 +1,19 @@
+
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@//103.130.212.3:1521/ttdev
+    username: HUNGNH
+    password: huyhung2401
+
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle12cDialect
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+
+  redis:
+    port: 6379
+    host:  localhost
+
